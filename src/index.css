@@ -1,0 +1,80 @@
+@font-face {
+  font-family: font1;
+  src: url(./assets/font1.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(./assets/font2.ttf);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(./assets/font3.ttf);
+}
+@font-face {
+  font-family: font4;
+  src: url(./assets/font4.ttf);
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+#splashScreenCenteredImage{
+    animation: fliker 2.5s infinite;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+@keyframes fliker {
+  0% {
+    background-image: url(https://wethinkelastic.com/assets/images/152c223f4359675788470.svg);
+  }
+
+  10% {
+    background-image: url(https://wethinkelastic.com/assets/images/24a07612b16472c6a503f.svg);
+  }
+
+  20% {
+    background-image: url(https://wethinkelastic.com/assets/images/338b04b3ad8edf6773599.svg);
+  }
+
+  30% {
+    background-image: url(https://wethinkelastic.com/assets/images/6a714ad31db5d83bc967b.svg);
+  }
+
+  40% {
+    background-image: url(https://wethinkelastic.com/assets/images/556ce542d7fdbd78d032e.svg);
+  }
+
+  50% {
+    background-image: url(https://wethinkelastic.com/assets/images/6a714ad31db5d83bc967b.svg);
+  }
+
+  60% {
+    background-image: url(https://wethinkelastic.com/assets/images/8a2db0cd90582eb4b877d.svg);
+  }
+
+  70% {
+    background-image: url(https://wethinkelastic.com/assets/images/9e5b57420355774e0a99d.svg);
+  }
+
+  80% {
+    background-image: url(https://wethinkelastic.com/assets/images/109804494fa1878703f2c1.svg);
+  }
+
+  90% {
+    background-image: url(https://wethinkelastic.com/assets/images/11d1acd8abd7b1efc4c23d.svg);
+  }
+
+  100% {
+    background-image: url(https://wethinkelastic.com/assets/images/152c223f4359675788470.svg);
+  }
+}

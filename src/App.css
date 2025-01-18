@@ -1,0 +1,41 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+
+#navLinks>span:hover{
+    color: #f3c77c;
+}
+
+#page2Video{
+    margin-top: 60px;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+#page2Video2{
+margin-top: 60px;
+}
+
+#page4Img{
+    height: 100%;
+    width: 100%;
+}
+
+#arrowSvg{
+    position: absolute;
+}
+
+#page4Video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page4HoverEffect{
+
+    transition: .4s;
+}
+.page4HoverEffect:hover{
+    scale: .95;
+}
+/* https: //wpf9km66-3000.inc1.devtunnels.ms/ */
